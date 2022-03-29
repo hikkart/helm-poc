@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: eros
+  namespace: {{ .Release.Namespace }}
+data:
+  type: {{ $.Values.type }}
