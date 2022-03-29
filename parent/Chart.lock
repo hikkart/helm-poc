@@ -1,0 +1,9 @@
+dependencies:
+- name: subchart1
+  repository: https://sfs-ins8dev-harbor.kla-tencor.com/chartrepo/test
+  version: 0.1.0
+- name: subchart2
+  repository: https://sfs-ins8dev-harbor.kla-tencor.com/chartrepo/test
+  version: 0.1.0
+digest: sha256:7cadde1c71eac7d3824e1883f4c7713e3dbfd473da1ac15881121b83988bbdb8
+generated: "2022-03-29T13:33:23.697962407+05:30"

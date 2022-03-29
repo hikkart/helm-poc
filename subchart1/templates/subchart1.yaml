@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ include "eros.fullname" . }}
+  name: subchart1
   namespace: {{ .Release.Namespace }}
 data:
   type: {{ $.Values.type }}
